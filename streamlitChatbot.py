@@ -9,10 +9,10 @@ load_dotenv()
 st.set_page_config(
     page_title="Groq Chatbot",
     page_icon="🤖",
-    layout="wide",
+    layout="centered",
 )
 
-st.title("Groq Chatbot")
+st.title("M$ Chatbot, Ask Anything except illogical shit")
 
 
 if "chat_history" not in st.session_state:
